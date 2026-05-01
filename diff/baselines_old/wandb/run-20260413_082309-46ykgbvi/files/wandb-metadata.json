@@ -1,0 +1,24 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.13.12",
+  "startedAt": "2026-04-13T12:23:09.696060Z",
+  "program": "C:\\Users\\Kessigen\\Downloads\\widowxv3\\train_sb3_sac.py",
+  "codePath": "train_sb3_sac.py",
+  "codePathLocal": "train_sb3_sac.py",
+  "email": "ejilendragon@gmail.com",
+  "root": "C:\\Users\\Kessigen\\Downloads\\widowxv3",
+  "host": "DESKTOP-CBOIHIP",
+  "executable": "C:\\Users\\Kessigen\\miniconda3\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "499450433536",
+      "used": "448752267264"
+    }
+  },
+  "memory": {
+    "total": "17072005120"
+  },
+  "writerId": "z8t1ldwq2dszk56irwsi6xx9y828w95z"
+}

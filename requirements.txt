@@ -1,0 +1,8 @@
+gymnasium
+imageio
+mujoco
+numpy
+pillow
+stable-baselines3
+torch
+wandb

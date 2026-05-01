@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "C:\Users\Kessigen\Downloads\widowxv3\train_sb3_sac.py", line 155, in <module>
+    main()
+    ~~~~^^
+  File "C:\Users\Kessigen\Downloads\widowxv3\train_sb3_sac.py", line 108, in main
+    env = DummyVecEnv([make_env(args.asset_root)])
+  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\stable_baselines3\common\vec_env\dummy_vec_env.py", line 31, in __init__
+    self.envs = [_patch_env(fn()) for fn in env_fns]
+                            ~~^^
+  File "C:\Users\Kessigen\Downloads\widowxv3\train_sb3_sac.py", line 73, in _thunk
+    return Monitor(WX250PickPlaceEnv(render_mode=render_mode, asset_root=asset_root))
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kessigen\Downloads\widowxv3\wx250_pick_env.py", line 227, in __init__
+    self._build_model(cube_xy=np.array([0.30, 0.0]), goal_xy=np.array([0.25, -0.12]))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kessigen\Downloads\widowxv3\wx250_pick_env.py", line 261, in _build_model
+    self.model = mujoco.MjModel.from_xml_path(str(self._xml_temp_path))
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Error: Error opening file 'external/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions/meshes/wx250_meshes/wx250_2_shoulder.stl'

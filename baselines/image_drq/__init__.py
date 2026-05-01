@@ -1,0 +1,1 @@
+"""DrQ-style image baseline."""

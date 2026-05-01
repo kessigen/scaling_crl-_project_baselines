@@ -1,0 +1,167 @@
+Using cpu device
+[2K---------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m845/500,000 [0m [ [33m0:00:00[0m < [36m0:05:49[0m , [31m1,432 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -70.6    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 4        |
+|    fps             | 1366     |
+|    time_elapsed    | 0        |
+|    total_timesteps | 1000     |
+---------------------------------
+[2K---------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m1,748/500,000 [0m [ [33m0:00:01[0m < [36m0:05:44[0m , [31m1,452 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -84.3    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 8        |
+|    fps             | 1426     |
+|    time_elapsed    | 1        |
+|    total_timesteps | 2000     |
+---------------------------------
+[2K---------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m2,958/500,000 [0m [ [33m0:00:02[0m < [36m0:05:42[0m , [31m1,455 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -84.3    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 12       |
+|    fps             | 1438     |
+|    time_elapsed    | 2        |
+|    total_timesteps | 3000     |
+---------------------------------
+[2K---------------------------------━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m3,884/500,000 [0m [ [33m0:00:02[0m < [36m0:05:38[0m , [31m1,470 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -81.1    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 16       |
+|    fps             | 1458     |
+|    time_elapsed    | 2        |
+|    total_timesteps | 4000     |
+---------------------------------
+[2K---------------------------------╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m4,971/500,000 [0m [ [33m0:00:03[0m < [36m0:05:35[0m , [31m1,481 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -81.4    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 20       |
+|    fps             | 1469     |
+|    time_elapsed    | 3        |
+|    total_timesteps | 5000     |
+---------------------------------
+[2K---------------------------------╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m5,995/500,000 [0m [ [33m0:00:33[0m < [36m2:28:58[0m , [31m55 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -83.4    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 24       |
+|    fps             | 181      |
+|    time_elapsed    | 33       |
+|    total_timesteps | 6000     |
+| train/             |          |
+|    actor_loss      | -16.5    |
+|    critic_loss     | 0.0469   |
+|    ent_coef        | 0.741    |
+|    ent_coef_loss   | -3.03    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 999      |
+---------------------------------
+[2K---------------------------------╸[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m6,998/500,000 [0m [ [33m0:01:04[0m < [36m4:22:46[0m , [31m31 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -81.1    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 28       |
+|    fps             | 107      |
+|    time_elapsed    | 65       |
+|    total_timesteps | 7000     |
+| train/             |          |
+|    actor_loss      | -24.8    |
+|    critic_loss     | 0.0302   |
+|    ent_coef        | 0.549    |
+|    ent_coef_loss   | -6.05    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 1999     |
+---------------------------------
+[2K---------------------------------━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m7,997/500,000 [0m [ [33m0:01:39[0m < [36m4:36:40[0m , [31m30 it/s[0m ]
+| rollout/           |          |
+|    ep_len_mean     | 250      |
+|    ep_rew_mean     | -77.9    |
+|    success_rate    | 0        |
+| time/              |          |
+|    episodes        | 32       |
+|    fps             | 80       |
+|    time_elapsed    | 99       |
+|    total_timesteps | 8000     |
+| train/             |          |
+|    actor_loss      | -30.2    |
+|    critic_loss     | 0.0684   |
+|    ent_coef        | 0.407    |
+|    ent_coef_loss   | -9.03    |
+|    learning_rate   | 0.0003   |
+|    n_updates       | 2999     |
+---------------------------------
+[2KTraceback (most recent call last):[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+[2K  File "C:\Users\Kessigen\Downloads\widowxv3\train_sb3_sac.py", line 180, in <module>━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    main()
+    ~~~~^^
+[2K  File "C:\Users\Kessigen\Downloads\widowxv3\train_sb3_sac.py", line 174, in main━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    model.learn(total_timesteps=args.timesteps, callback=[checkpoint_cb, eval_cb, wandb_cb], progress_bar=True,
+reset_num_timesteps=checkpoint_path is None)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\stable_baselines3\sac\sac.py", line 313, in learn━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    return super().learn(
+           ~~~~~~~~~~~~~^
+        total_timesteps=total_timesteps,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        progress_bar=progress_bar,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\stable_baselines3\common\off_policy_algorithm.py", line 354, in ━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+learn
+    self.train(batch_size=self.batch_size, gradient_steps=gradient_steps)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\stable_baselines3\sac\sac.py", line 274, in train━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    self.critic.optimizer.step()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\torch\optim\optimizer.py", line 533, in wrapper━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    out = func(*args, **kwargs)
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\torch\optim\optimizer.py", line 81, in _use_grad━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    ret = func(*args, **kwargs)
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\torch\optim\adam.py", line 248, in step━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    adam(
+    ~~~~^
+        params_with_grad,
+        ^^^^^^^^^^^^^^^^^
+    ...<19 lines>...
+        decoupled_weight_decay=group["decoupled_weight_decay"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\torch\optim\optimizer.py", line 151, in maybe_fallback━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    return func(*args, **kwargs)
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\torch\optim\adam.py", line 971, in adam━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    func(
+    ~~~~^
+        params,
+        ^^^^^^^
+    ...<17 lines>...
+        decoupled_weight_decay=decoupled_weight_decay,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+[2K  File "C:\Users\Kessigen\miniconda3\Lib\site-packages\torch\optim\adam.py", line 547, in _single_tensor_adam━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+    param.addcdiv_(exp_avg, denom, value=-step_size)  # type: ignore[arg-type]
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2KKeyboardInterrupt;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
+[35m   2%[0m [38;2;249;38;114m━[0m[38;5;237m╺[0m[38;5;237m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m8,875/500,000 [0m [ [33m0:02:09[0m < [36m4:40:39[0m , [31m29 it/s[0m ]
